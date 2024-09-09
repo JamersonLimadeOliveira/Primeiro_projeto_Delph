@@ -1,0 +1,33 @@
+CONFIGURAÇÕES {
+Baixar o git 
+https://git-scm.com/download/win
+
+No git bash
+git config --global user.name "SeuNome"
+git config --global user.email "SeuEmail"
+
+Gitlab (faça login)
+https://gitlab.com/users/sign_in
+}
+
+
+UTILIZAÇÃO {
+
+git status                            (Verificar informações relevantes)
+ cd Primeiro_projeto_Delph/
+--------------------
+
+git clone https://link.git        (Pegar o projeto)
+
+git add -f .                      (Criar o commite, usando o -f para garantir que os .exe vão ir juntos)
+
+git commit -m "Primeiro Commit"   (Comentário do commite, informações importantes, e nome do responsável)
+
+git push -uf origin main          (Enviar para o repositório remoto, main é o nome da branch, podemos ter mais)
+
+
+------------------------
+
+git pull    (Puxar as ultimas atualizações do repositório remoto, usar antes de fazer alguma alteraçao)
+
+}
